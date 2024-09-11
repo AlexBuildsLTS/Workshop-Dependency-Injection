@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 @Component
 public class ScannerInputService implements UserInputService {
+
     private final Scanner scanner;
 
     @Autowired

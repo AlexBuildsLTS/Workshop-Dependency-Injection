@@ -11,9 +11,11 @@ The **Student Management System** serves as a practical implementation of **Depe
     - `StudentDaoListImpl`: Implements `StudentDao` using an in-memory list to store `Student` entities.
     - The implementation is marked with `@Component`, and Spring manages its lifecycle.
 
-2. **User Input Services**:
-    - `UserInputService` interface: Provides an abstraction for capturing user input.
-    - `ScannerInputService`: Implements `UserInputService` using a `Scanner` to read input from the console. The `Scanner` is injected as a Spring bean.
+2. serInputService and ScannerInputService
+
+    Created UserInputService Interface: Provides methods for capturing input from the user
+    Implemented ScannerInputService: Uses Scanner to capture console input
+    Injected Scanner as a Bean: Defined a @Bean in the InputConfig.java file and used @Autowired for constructor injection in ScannerInputServvis
 
 3. **Management Service**:
     - `StudentManagementConsoleImpl`: Provides the main business logic for managing `Student` entities, including creating, finding, listing, and deleting students.
