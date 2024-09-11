@@ -1,4 +1,6 @@
 package se.alex.lexicon.services;
 
-public class UserInputService {
+public interface UserInputService {
+    String getString();
+    int getInt();
 }
