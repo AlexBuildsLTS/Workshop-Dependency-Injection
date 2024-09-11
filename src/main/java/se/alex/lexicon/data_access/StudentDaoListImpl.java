@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component  // Marks this class as a Spring-managed component
+@Component
 public class StudentDaoListImpl implements StudentDao {
     private final List<Student> students = new ArrayList<>();
 
