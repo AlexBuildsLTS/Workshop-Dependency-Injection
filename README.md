@@ -71,6 +71,6 @@ public class StudentManagementConsoleImpl implements StudentManagement {
         this.userInputService = userInputService;
         this.studentDao = studentDao;
     }
-
-
+// Business logic methods (create, save, find, delete)
+}
 
